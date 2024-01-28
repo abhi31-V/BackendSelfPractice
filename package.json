@@ -1,0 +1,11 @@
+{
+  "name": "backendpracticeproject",
+  "version": "1.0.0",
+  "description": "Backend Project for learning",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abhishek Vashishth",
+  "license": "ISC"
+}
