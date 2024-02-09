@@ -11,4 +11,14 @@ app.use(express.urlencoded({extended:true,limit:"16kb"})) // as in url sometimes
 app.use(express.static("public"))
 app.use(cookieParser());
 
+
+
+//routes  imports
+import userRouter from "./routes/user.routes.js";
+
+
+//routes declare for middleware so we use (prefix routes)
+app.use("/api/v1/users",userRouter)
+
+//http://localhost:8000/api/v1/users/register
 export {app};
